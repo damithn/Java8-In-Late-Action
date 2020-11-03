@@ -14,6 +14,10 @@ public class LamdaWithArg {
 //        }
 //    }
 
+    /**
+     *
+     * lamda with argument 
+     */
     public static void main(String[] args) {
 //        Cab cab = new Uber();
         Cab cab = (from, to) -> System.out.println("Uber Cab Booked From " + from + " To " + to);
