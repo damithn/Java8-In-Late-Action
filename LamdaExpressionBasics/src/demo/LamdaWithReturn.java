@@ -17,6 +17,6 @@ public class LamdaWithReturn {
             System.out.println("Uber Cab Booked From " + from + " To " + to);
             return ("price 100/=");
         };
-        cab.bookCab("colombo", "kelaniya");
+        System.out.println(cab.bookCab("colombo", "kelaniya"));
     }
 }
